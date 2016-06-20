@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>homework-3</title>
+    </head>
+    <body>
+        <center>
+            <h1>Homework-3</h1>
+                <b>
+                    <p>Таблиця</p>
+                </b>
+                <table width="700" border="1">
+                    <tbody>
+                        <tr>
+                            <th rowspan="2">Summary</th>
+                            <th>Quarter I</th>
+                            <th>Quarter II</th>
+                        </tr>
+                        <tr>
+                            <th>Results</th>
+                            <th>Results</th>
+                        </tr>
+                        <tr>
+                            <td>January</td>
+                            <td>10</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>30</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td colspan="2">100</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </center>
+        <center>
+            <b>
+                <p>Опитування</p>
+            </b>
+        </center>    
+            <ul>
+                <li> Питання 1</li>
+                    <ol>
+                        <li>Відповідь</li>
+                        <li>Відповідь</li>
+                        <li>Відповідь</li>
+                    </ol>
+                <li>Питання 2</li>
+                    <ol>
+                        <li>Відповідь</li>
+                        <li>Відповідь</li>
+                    </ol>
+            </ul>
+            <center>
+                <b>
+                    <p>Форма зворотнього зв'язку</p>
+                </b>
+                <form action="http://formspree.io/lviv2906@gmail.com" method="POST">
+                    <label for="name">Name:</label>    
+                    <input type="text" id="name" name="name" required placeholder="enter the name">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="enter email">
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" required placeholder="your message"></textarea>
+                    <br>
+                    <input type="submit">
+                    <br>
+                 </form>
+            </center     
+    </body>
+</html>
